@@ -1,0 +1,13 @@
+component_id,baseline_health_score,latest_health_score,risk_score,decision,target_station
+housing,88,88,18,reuse,reuse_bin
+front_cover,82,82,22,reuse,reuse_bin
+rear_cover,80,80,24,reuse,reuse_bin
+rotor,79,79,28,reuse,reuse_bin
+stator,64,64,49,repair/remanufacture,repair_bin
+shaft,58,58,42,repair/remanufacture,repair_bin
+bearing_front,36,36,76,replace,replace_bin
+bearing_rear,33,33,79,replace,replace_bin
+fan,18,18,86,recycle,recycle_bin
+terminal_box,77,77,31,reuse,reuse_bin
+bolts,22,22,68,recycle,recycle_bin
+

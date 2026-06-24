@@ -1,0 +1,112 @@
+{
+  "workflow_status": "completed",
+  "execution_mode": "moveit",
+  "target_robot": "Universal Robots UR5e",
+  "target_gripper": "Robotiq 2F-85 style parallel gripper",
+  "current_step": 17,
+  "total_steps": 17,
+  "tasks": [
+    {
+      "step": 1,
+      "total_steps": 17,
+      "description": "Load motor passport",
+      "status": "completed"
+    },
+    {
+      "step": 2,
+      "total_steps": 17,
+      "description": "Scan motor",
+      "status": "completed"
+    },
+    {
+      "step": 3,
+      "total_steps": 17,
+      "description": "Evaluate health",
+      "status": "completed"
+    },
+    {
+      "step": 4,
+      "total_steps": 17,
+      "description": "Generate Re-X decisions",
+      "status": "completed"
+    },
+    {
+      "step": 5,
+      "total_steps": 17,
+      "description": "Move robot to home",
+      "status": "failed"
+    },
+    {
+      "step": 6,
+      "total_steps": 17,
+      "description": "Pick terminal_box -> reuse_bin (reuse)",
+      "status": "completed"
+    },
+    {
+      "step": 7,
+      "total_steps": 17,
+      "description": "Pick fan -> recycle_bin (recycle)",
+      "status": "completed"
+    },
+    {
+      "step": 8,
+      "total_steps": 17,
+      "description": "Pick bearing_front -> replace_bin (replace) failed at source contact",
+      "status": "failed"
+    },
+    {
+      "step": 9,
+      "total_steps": 17,
+      "description": "Pick bearing_rear -> replace_bin (replace)",
+      "status": "completed"
+    },
+    {
+      "step": 10,
+      "total_steps": 17,
+      "description": "Pick rotor -> reuse_bin (reuse) failed at source contact",
+      "status": "failed"
+    },
+    {
+      "step": 11,
+      "total_steps": 17,
+      "description": "Pick stator -> repair_bin (repair/remanufacture)",
+      "status": "completed"
+    },
+    {
+      "step": 12,
+      "total_steps": 17,
+      "description": "Pick shaft -> repair_bin (repair/remanufacture)",
+      "status": "completed"
+    },
+    {
+      "step": 13,
+      "total_steps": 17,
+      "description": "Pick housing -> reuse_bin (reuse)",
+      "status": "completed"
+    },
+    {
+      "step": 14,
+      "total_steps": 17,
+      "description": "Pick front_cover -> reuse_bin (reuse)",
+      "status": "completed"
+    },
+    {
+      "step": 15,
+      "total_steps": 17,
+      "description": "Pick rear_cover -> reuse_bin (reuse)",
+      "status": "completed"
+    },
+    {
+      "step": 16,
+      "total_steps": 17,
+      "description": "Pick bolts -> recycle_bin (recycle)",
+      "status": "completed"
+    },
+    {
+      "step": 17,
+      "total_steps": 17,
+      "description": "Publish final summary",
+      "status": "completed"
+    }
+  ]
+}

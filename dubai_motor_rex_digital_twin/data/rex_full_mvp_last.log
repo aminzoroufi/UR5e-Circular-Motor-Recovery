@@ -1,0 +1,1083 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-06-22-21-25-54-155458-2d00307d9801-29
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gazebo-1]: process started with pid [38]
+[INFO] [parameter_bridge-2]: process started with pid [39]
+[INFO] [robot_state_publisher-3]: process started with pid [41]
+[INFO] [create-4]: process started with pid [42]
+[robot_state_publisher-3] [INFO] [1782163554.493574543] [robot_state_publisher]: Robot initialized
+[create-4] [INFO] [1782163554.493988502] [ros_gz_sim]: Requesting list of world names.
+[parameter_bridge-2] [INFO] [1782163554.506632835] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[create-4] [INFO] [1782163554.892339544] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[create-4] [INFO] [1782163554.895699710] [ros_gz_sim]: Entity creation successful.
+[INFO] [create-4]: process has finished cleanly [pid 42]
+[gazebo-1] [INFO] [1782163556.701473086] [gz_ros_control]: [gz_ros2_control] Fixed joint ['camera_placeholder_joint'] (Entity='107') is skipped.
+[gazebo-1] [INFO] [1782163556.701520836] [gz_ros_control]: [gz_ros2_control] Fixed joint ['conveyor_placeholder_joint'] (Entity='108') is skipped.
+[gazebo-1] [INFO] [1782163556.701525753] [gz_ros_control]: [gz_ros2_control] Fixed joint ['depth_camera_placeholder_joint'] (Entity='109') is skipped.
+[gazebo-1] [INFO] [1782163556.701529211] [gz_ros_control]: [gz_ros2_control] Fixed joint ['floor_joint'] (Entity='110') is skipped.
+[gazebo-1] [INFO] [1782163556.701532128] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_bearing_front_world_joint'] (Entity='111') is skipped.
+[gazebo-1] [INFO] [1782163556.701535294] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_bearing_rear_world_joint'] (Entity='112') is skipped.
+[gazebo-1] [INFO] [1782163556.701538461] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_bolts_world_joint'] (Entity='113') is skipped.
+[gazebo-1] [INFO] [1782163556.701541378] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_fan_world_joint'] (Entity='114') is skipped.
+[gazebo-1] [INFO] [1782163556.701544294] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_front_cover_world_joint'] (Entity='115') is skipped.
+[gazebo-1] [INFO] [1782163556.701547211] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_housing_world_joint'] (Entity='116') is skipped.
+[gazebo-1] [INFO] [1782163556.701550294] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_rear_cover_world_joint'] (Entity='117') is skipped.
+[gazebo-1] [INFO] [1782163556.701553211] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_rotor_world_joint'] (Entity='118') is skipped.
+[gazebo-1] [INFO] [1782163556.701556128] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_shaft_world_joint'] (Entity='119') is skipped.
+[gazebo-1] [INFO] [1782163556.701559128] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_stator_world_joint'] (Entity='120') is skipped.
+[gazebo-1] [INFO] [1782163556.701562003] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_terminal_box_world_joint'] (Entity='121') is skipped.
+[gazebo-1] [INFO] [1782163556.701564836] [gz_ros_control]: [gz_ros2_control] Fixed joint ['reassembly_station_joint'] (Entity='122') is skipped.
+[gazebo-1] [INFO] [1782163556.701567711] [gz_ros_control]: [gz_ros2_control] Fixed joint ['recovery_table_joint'] (Entity='123') is skipped.
+[gazebo-1] [INFO] [1782163556.701570503] [gz_ros_control]: [gz_ros2_control] Fixed joint ['recycle_bin_joint'] (Entity='124') is skipped.
+[gazebo-1] [INFO] [1782163556.701573836] [gz_ros_control]: [gz_ros2_control] Fixed joint ['repair_bin_joint'] (Entity='125') is skipped.
+[gazebo-1] [INFO] [1782163556.701576586] [gz_ros_control]: [gz_ros2_control] Fixed joint ['repair_station_joint'] (Entity='126') is skipped.
+[gazebo-1] [INFO] [1782163556.701579419] [gz_ros_control]: [gz_ros2_control] Fixed joint ['replace_bin_joint'] (Entity='127') is skipped.
+[gazebo-1] [INFO] [1782163556.701582044] [gz_ros_control]: [gz_ros2_control] Fixed joint ['reuse_bin_joint'] (Entity='128') is skipped.
+[gazebo-1] [INFO] [1782163556.701584669] [gz_ros_control]: [gz_ros2_control] Fixed joint ['robot_mount_joint'] (Entity='129') is skipped.
+[gazebo-1] [INFO] [1782163556.701590419] [gz_ros_control]: [gz_ros2_control] Fixed joint ['test_station_joint'] (Entity='138') is skipped.
+[gazebo-1] [INFO] [1782163556.704732294] [gz_ros_control]: Loading controller_manager
+[gazebo-1] [INFO] [1782163556.719052211] [controller_manager]: Using ROS clock for triggering controller manager cycles.
+[gazebo-1] [INFO] [1782163556.720756419] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[gazebo-1] [WARN] [1782163556.722151878] [gz_ros_control]: Waiting RM to load and initialize hardware...
+[gazebo-1] [INFO] [1782163556.722412961] [controller_manager]: Received robot description from topic.
+[gazebo-1] [INFO] [1782163556.722449628] [controller_manager]: Enforcing command limits is disabled. Command limits from URDF will be ignored.
+[gazebo-1] [INFO] [1782163556.727380461] [gz_ros_control]: The position_proportional_gain has been set to: 0.1
+[gazebo-1] [INFO] [1782163556.727414753] [gz_ros_control]: Loading joint: shoulder_pan_joint
+[gazebo-1] [INFO] [1782163556.727424253] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782163556.727432878] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727449836] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782163556.727459336] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782163556.727463461] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727474211] [gz_ros_control]: Loading joint: shoulder_lift_joint
+[gazebo-1] [INFO] [1782163556.727478378] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782163556.727481878] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727485378] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782163556.727488586] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782163556.727491628] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727497378] [gz_ros_control]: Loading joint: elbow_joint
+[gazebo-1] [INFO] [1782163556.727500336] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782163556.727502961] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727506044] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782163556.727508628] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782163556.727511086] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727516378] [gz_ros_control]: Loading joint: wrist_1_joint
+[gazebo-1] [INFO] [1782163556.727519211] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782163556.727521836] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727524461] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782163556.727526961] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782163556.727529419] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727534211] [gz_ros_control]: Loading joint: wrist_2_joint
+[gazebo-1] [INFO] [1782163556.727536919] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782163556.727539461] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727542794] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782163556.727545419] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782163556.727547919] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727553336] [gz_ros_control]: Loading joint: wrist_3_joint
+[gazebo-1] [INFO] [1782163556.727556044] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782163556.727558586] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727561169] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782163556.727563711] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782163556.727566169] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727571211] [gz_ros_control]: Loading joint: left_finger_joint
+[gazebo-1] [INFO] [1782163556.727574044] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782163556.727582128] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727584711] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782163556.727587211] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782163556.727589669] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727594628] [gz_ros_control]: Loading joint: right_finger_joint
+[gazebo-1] [INFO] [1782163556.727597211] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782163556.727599628] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727602128] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782163556.727604628] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782163556.727607669] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782163556.727727253] [controller_manager]: Initialize hardware 'MotorRexSystem' 
+[gazebo-1] [WARN] [1782163556.727742711] [controller_manager.hardware_component.system.MotorRexSystem]: Executor is not available during hardware component initialization for 'MotorRexSystem'. Skipping node creation!
+[gazebo-1] [INFO] [1782163556.727792253] [controller_manager]: Successful initialization of hardware 'MotorRexSystem'
+[gazebo-1] [INFO] [1782163556.727894586] [controller_manager]: Activating component 'MotorRexSystem'.
+[gazebo-1] [INFO] [1782163556.727902836] [resource_manager]: 'configure' hardware 'MotorRexSystem' 
+[gazebo-1] [INFO] [1782163556.727906169] [gz_ros_control]: System Successfully configured!
+[gazebo-1] [INFO] [1782163556.727910211] [resource_manager]: Successful 'configure' of hardware 'MotorRexSystem'
+[gazebo-1] [INFO] [1782163556.727916961] [resource_manager]: 'activate' hardware 'MotorRexSystem' 
+[gazebo-1] [INFO] [1782163556.727925669] [resource_manager]: Successful 'activate' of hardware 'MotorRexSystem'
+[gazebo-1] [WARN] [1782163556.727964461] [controller_manager]: Component 'MotorRexSystem' does not have read or write statistics initialized, skipping registration.
+[gazebo-1] [INFO] [1782163556.727970794] [controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[INFO] [spawner-5]: process started with pid [129]
+[INFO] [spawner-6]: process started with pid [130]
+[INFO] [spawner-7]: process started with pid [131]
+[gazebo-1] [INFO] [1782163558.729206087] [controller_manager]: Loading controller : 'gripper_controller' of type 'joint_trajectory_controller/JointTrajectoryController'
+[gazebo-1] [INFO] [1782163558.729245087] [controller_manager]: Loading controller 'gripper_controller'
+[gazebo-1] [INFO] [1782163558.733911670] [controller_manager]: Controller 'gripper_controller' node arguments: --ros-args --params-file /workspace/dubai_motor_rex_digital_twin/ros2_ws/install/motor_rex_description/share/motor_rex_description/config/ros2_controllers.yaml -p use_sim_time:=true --param use_sim_time:=true 
+[gazebo-1] [WARN] [1782163558.735114420] [gz_ros_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[spawner-7] [INFO] [1782163558.749272795] [spawner_gripper_controller]: Loaded gripper_controller
+[gazebo-1] [INFO] [1782163558.749894629] [controller_manager]: Configuring controller: 'gripper_controller'
+[gazebo-1] [INFO] [1782163558.750051045] [gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gazebo-1] [INFO] [1782163558.750083920] [gripper_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gazebo-1] [INFO] [1782163558.750110837] [gripper_controller]: Using 'splines' interpolation method.
+[gazebo-1] [INFO] [1782163558.755291254] [gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[gazebo-1] [INFO] [1782163558.757713712] [gripper_controller]: Setting initial scaling factor to 1.000000
+[gazebo-1] [INFO] [1782163558.757730337] [gripper_controller]: No scaling interface set. This controller will not read speed scaling from the hardware.
+[gazebo-1] [INFO] [1782163558.764984545] [controller_manager]: Activating controllers: [ gripper_controller ]
+[gazebo-1] [INFO] [1782163558.773551045] [controller_manager]: Successfully switched controllers!
+[spawner-7] [INFO] [1782163558.784904420] [spawner_gripper_controller]: Configured and activated gripper_controller
+[INFO] [spawner-7]: process has finished cleanly [pid 131]
+[gazebo-1] [INFO] [1782163559.071734421] [controller_manager]: Loading controller : 'arm_controller' of type 'joint_trajectory_controller/JointTrajectoryController'
+[gazebo-1] [INFO] [1782163559.071781629] [controller_manager]: Loading controller 'arm_controller'
+[gazebo-1] [INFO] [1782163559.072014504] [controller_manager]: Controller 'arm_controller' node arguments: --ros-args --params-file /workspace/dubai_motor_rex_digital_twin/ros2_ws/install/motor_rex_description/share/motor_rex_description/config/ros2_controllers.yaml -p use_sim_time:=true --param use_sim_time:=true 
+[spawner-6] [INFO] [1782163559.101860504] [spawner_arm_controller]: Loaded arm_controller
+[gazebo-1] [INFO] [1782163559.102541921] [controller_manager]: Configuring controller: 'arm_controller'
+[gazebo-1] [INFO] [1782163559.102679421] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gazebo-1] [INFO] [1782163559.102694712] [arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gazebo-1] [INFO] [1782163559.102706296] [arm_controller]: Using 'splines' interpolation method.
+[gazebo-1] [INFO] [1782163559.104219546] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[gazebo-1] [INFO] [1782163559.106034462] [arm_controller]: Setting initial scaling factor to 1.000000
+[gazebo-1] [INFO] [1782163559.106053962] [arm_controller]: No scaling interface set. This controller will not read speed scaling from the hardware.
+[gazebo-1] [INFO] [1782163559.115104754] [controller_manager]: Activating controllers: [ arm_controller ]
+[gazebo-1] [INFO] [1782163559.123575671] [controller_manager]: Successfully switched controllers!
+[spawner-6] [INFO] [1782163559.135089254] [spawner_arm_controller]: Configured and activated arm_controller
+[INFO] [spawner-6]: process has finished cleanly [pid 130]
+[gazebo-1] [INFO] [1782163559.426566337] [controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[gazebo-1] [INFO] [1782163559.426598921] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[gazebo-1] [INFO] [1782163559.430570671] [controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /workspace/dubai_motor_rex_digital_twin/ros2_ws/install/motor_rex_description/share/motor_rex_description/config/ros2_controllers.yaml -p use_sim_time:=true --param use_sim_time:=true 
+[spawner-5] [INFO] [1782163559.451663671] [spawner_joint_state_broadcaster]: Loaded joint_state_broadcaster
+[gazebo-1] [INFO] [1782163559.452300212] [controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[gazebo-1] [INFO] [1782163559.452358171] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[gazebo-1] [INFO] [1782163559.464920421] [controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[gazebo-1] [INFO] [1782163559.473538712] [controller_manager]: Successfully switched controllers!
+[spawner-5] [INFO] [1782163559.484888046] [spawner_joint_state_broadcaster]: Configured and activated joint_state_broadcaster
+[INFO] [spawner-5]: process has finished cleanly [pid 129]
+[INFO] [move_group-8]: process started with pid [180]
+[move_group-8] [INFO] [1782163561.658161922] [move_group.moveit.moveit.ros.rdf_loader]: Loaded robot model in 0.004 seconds
+[move_group-8] [INFO] [1782163561.658234630] [move_group.moveit.moveit.core.robot_model]: Loading robot model 'motor_rex_cell'...
+[move_group-8] [INFO] [1782163561.658253880] [move_group.moveit.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-8] [INFO] [1782163561.664599380] [move_group.moveit.moveit.kinematics.kdl_kinematics_plugin]: Joint weights for group 'arm': 1 1 1 1 1 1
+[move_group-8] [INFO] [1782163561.673089380] [move_group.moveit.moveit.ros.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-8] [INFO] [1782163561.673804422] [move_group.moveit.moveit.ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-8] [INFO] [1782163561.677481672] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-8] [INFO] [1782163561.678107047] [move_group.moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-8] [INFO] [1782163561.678196130] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting planning scene monitor
+[move_group-8] [INFO] [1782163561.678605422] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-8] [INFO] [1782163561.678624297] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-8] [INFO] [1782163561.678805255] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-8] [INFO] [1782163561.678989172] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-8] [WARN] [1782163561.679729338] [move_group.moveit.moveit.ros.occupancy_map_monitor]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-8] [ERROR] [1782163561.679745380] [move_group.moveit.moveit.ros.occupancy_map_monitor]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-8] [INFO] [1782163561.692526630] [move_group.moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'OMPL'
+[move_group-8] [INFO] [1782163561.695859588] [move_group]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163561.696630005] [move_group]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163561.696647047] [move_group]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-8] [INFO] [1782163561.696785838] [move_group]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-8] [INFO] [1782163561.696798505] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1782163561.696822672] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1782163561.696828130] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-8] [INFO] [1782163561.696834505] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-8] [INFO] [1782163561.700261630] [move_group]: Try loading adapter 'default_planning_response_adapters/AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163561.701701047] [move_group]: Loaded adapter 'default_planning_response_adapters/AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163561.701716922] [move_group]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-8] [INFO] [1782163561.702749922] [move_group]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-8] [INFO] [1782163561.702762797] [move_group]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'
+[move_group-8] [INFO] [1782163561.703161422] [move_group]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'
+[move_group-8] [INFO] [1782163561.721106630] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for arm_controller
+[move_group-8] [INFO] [1782163561.722173255] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for gripper_controller
+[move_group-8] [INFO] [1782163561.722403338] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163561.722422088] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163561.722695922] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Trajectory execution is not managing controllers
+[move_group-8] [INFO] [1782163561.722710880] [move_group]: MoveGroup debug mode is ON
+[move_group-8] [INFO] [1782163561.734760088] [move_group.moveit.moveit.ros.move_group.executable]: 
+[move_group-8] 
+[move_group-8] ********************************************************
+[move_group-8] * MoveGroup using: 
+[move_group-8] *     - apply_planning_scene_service
+[move_group-8] *     - clear_octomap_service
+[move_group-8] *     - get_group_urdf
+[move_group-8] *     - load_geometry_from_file
+[move_group-8] *     - CartesianPathService
+[move_group-8] *     - execute_trajectory_action
+[move_group-8] *     - get_planning_scene_service
+[move_group-8] *     - kinematics_service
+[move_group-8] *     - move_action
+[move_group-8] *     - motion_plan_service
+[move_group-8] *     - query_planners_service
+[move_group-8] *     - state_validation_service
+[move_group-8] *     - save_geometry_to_file
+[move_group-8] ********************************************************
+[move_group-8] 
+[move_group-8] [INFO] [1782163561.734790963] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context using pipeline ompl
+[move_group-8] [INFO] [1782163561.734797713] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context initialization complete
+[move_group-8] [96mLoading 'move_group/ApplyPlanningSceneService'...[0m
+[move_group-8] [96mLoading 'move_group/ClearOctomapService'...[0m
+[move_group-8] [96mLoading 'move_group/GetUrdfService'...[0m
+[move_group-8] [96mLoading 'move_group/LoadGeometryFromFileService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupCartesianPathService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupGetPlanningSceneService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupKinematicsService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupMoveAction'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupPlanService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupQueryPlannersService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupStateValidationService'...[0m
+[move_group-8] [96mLoading 'move_group/SaveGeometryToFileService'...[0m
+[move_group-8] 
+[move_group-8] [92mYou can start planning now![0m
+[move_group-8] 
+[INFO] [decision_engine_node-9]: process started with pid [225]
+[INFO] [mock_camera_node-10]: process started with pid [226]
+[INFO] [mock_sensor_node-11]: process started with pid [227]
+[INFO] [component_pose_publisher-12]: process started with pid [228]
+[INFO] [task_planner_node-13]: process started with pid [229]
+[decision_engine_node-9] [INFO] [1782163571.674884343] [decision_engine_node]: Processed Re-X decisions for DXB-HVAC-MOTOR-001
+[decision_engine_node-9] [INFO] [1782163571.675496218] [decision_engine_node]: Saved results to /workspace/dubai_motor_rex_digital_twin/data/processed_motor_results.json
+[task_planner_node-13] [INFO] [1782163571.861248010] [task_planner_node]: Task planner execution_mode=moveit
+[task_planner_node-13] [INFO] [1782163573.678562969] [task_planner_node]: Started task workflow with 20 steps
+[task_planner_node-13] [INFO] [1782163573.853856219] [task_planner_node]: Load motor passport
+[move_group-8] [INFO] [1782163574.104100261] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163574.104657886] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163574.105186511] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163574.105215886] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163574.105456678] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163574.105563844] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163574.105574261] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163574.105654053] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163574.105749928] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163574.107525511] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163574.107938928] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163574.130974928] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [WARN] [1782163574.131055136] [move_group.moveit.moveit.core.ruckig_traj_smoothing]: Joint acceleration limits are not defined. Using the default 10 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[move_group-8] [WARN] [1782163574.131085511] [move_group.moveit.moveit.core.ruckig_traj_smoothing]: Joint jerk limits are not defined. Using the default 1000 rad/s^3. You can define jerk limits in joint_limits.yaml.
+[move_group-8] [INFO] [1782163574.131417719] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163574.131723136] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163574.131869136] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163574.131904344] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163574.133737469] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163574.133959469] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163574.134034886] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163574.134145053] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163574.134870928] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163574.134910886] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163574.134927761] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163574.135054678] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[move_group-8] [INFO] [1782163574.135616219] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163574.135634636] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163574.135408136] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163574.135459219] [arm_controller]: Accepted new action goal
+[gazebo-1] [INFO] [1782163576.634732929] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163576.636063512] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163576.644958262] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163576.645069304] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163576.998194679] [task_planner_node]: Scan motor
+[task_planner_node-13] [INFO] [1782163577.104137387] [task_planner_node]: Evaluate health
+[task_planner_node-13] [INFO] [1782163577.354153304] [task_planner_node]: Generate Re-X decisions
+[move_group-8] [INFO] [1782163577.604521763] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163577.604905096] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163577.605053388] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163577.605139513] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163577.605450513] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163577.605534054] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163577.605543096] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163577.605677971] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163577.605835013] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163577.606519013] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163577.606618304] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163577.625477054] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163577.625705179] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163577.625884346] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163577.626002804] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163577.626025096] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163577.627344096] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163577.627388013] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163577.627408304] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163577.627471388] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163577.634830513] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163577.634884763] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163577.634903096] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163577.634990388] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163577.635183596] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163577.635208013] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163577.635546096] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163577.635557138] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163578.634434805] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163578.635528055] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163578.654605847] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163578.654667555] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163579.008844597] [task_planner_node]: Move robot to home
+[move_group-8] [INFO] [1782163579.103857763] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163579.104356222] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163579.105215888] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163579.105247222] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163579.105500138] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163579.105586180] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163579.105594138] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163579.105783638] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163579.105883305] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163579.106498638] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163579.106606513] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163579.133003013] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163579.133264888] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163579.133482013] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163579.133831055] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163579.133875388] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163579.135832263] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163579.135881555] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163579.135905347] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163579.135967555] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163579.145055763] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163579.145151513] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163579.145172972] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163579.145295305] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163579.145609180] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163579.145643388] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163579.145826347] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163579.145841305] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163580.144254250] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163580.146025916] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163580.154774250] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163580.154919500] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163580.508435833] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163580.508807625] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163580.514357500] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163580.514409291] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163580.514596875] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163580.514664875] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163580.514671833] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163580.514719333] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163580.514769208] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163580.515114541] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163580.515180625] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163580.519916750] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163580.520053958] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163580.520228875] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163580.520338958] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163580.520356208] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163580.521259375] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163580.521280125] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163580.521293833] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163580.521325166] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163580.524456916] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163580.524487791] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163580.524497916] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163580.524582250] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163580.524828250] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163580.524862958] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163580.525010083] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163580.525017250] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163582.274349417] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163582.275628917] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163582.284571542] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163582.284805584] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163582.637387584] [task_planner_node]: Pick terminal_box -> test_station (reuse)
+[move_group-8] [INFO] [1782163582.854544334] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163582.855907793] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163582.857077709] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163582.857125543] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163582.857358543] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163582.857447876] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163582.857456543] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163582.857532043] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163582.857613709] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163582.858187209] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163582.858434626] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163582.875701459] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163582.875943626] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163582.876246084] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163582.876411751] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163582.876440626] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163582.878224376] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163582.878268459] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163582.878292418] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163582.878351209] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163582.884546876] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163582.884611793] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163582.884627543] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163582.884750126] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163582.884974043] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163582.885005209] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163582.885261126] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163582.885271918] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163584.634029085] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163584.635941085] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163584.644200293] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163584.644273335] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163584.995489169] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163584.995673169] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163585.004206794] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163585.004233294] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163585.004349627] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163585.004385794] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163585.004389169] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163585.004423169] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163585.004452794] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163585.004705294] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163585.004763835] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163585.009590669] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163585.009791377] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163585.009977627] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163585.010074919] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163585.010090294] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163585.011046627] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163585.011072919] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163585.011084460] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163585.011115835] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163585.014237210] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163585.014271919] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163585.014283210] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163585.014350502] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163585.014483710] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163585.014502085] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163585.014580169] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163585.014586585] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163587.765877087] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163587.816272420] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163587.816836170] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163587.817002212] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163588.170540212] [task_planner_node]: Pick fan -> recycle_bin (recycle)
+[move_group-8] [INFO] [1782163588.353195962] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163588.353466003] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163588.356671045] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163588.356779378] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163588.356996878] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163588.357060753] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163588.357067712] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163588.357122003] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163588.357182712] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163588.357727420] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163588.357813212] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163588.386144670] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163588.386371129] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163588.386785129] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163588.386990379] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163588.387036379] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163588.388528420] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163588.388558462] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163588.388576045] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163588.388619545] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163588.395812170] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163588.395856129] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163588.395870379] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163588.395949045] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163588.396132170] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163588.396157420] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163588.396260379] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163588.396268587] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163591.146446630] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163591.147003338] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163591.147139630] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163591.147376463] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163591.501303255] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163591.501607963] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163591.507166005] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163591.507203547] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163591.507392547] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163591.507455005] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163591.507462505] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163591.507515922] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163591.507574172] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163591.508056213] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163591.508137380] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163591.534439130] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163591.534989713] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163591.535300838] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163591.535443463] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163591.535468963] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163591.537043463] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163591.537084005] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163591.537102380] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163591.537145005] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163591.537245922] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163591.537289213] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163591.537304797] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163591.537410130] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163591.537648547] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163591.537678797] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163591.537936922] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163591.537948547] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163594.038050548] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163594.088948673] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163594.089286715] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163594.089504506] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163594.444456215] [task_planner_node]: Pick bearing_front -> replace_bin (replace)
+[move_group-8] [INFO] [1782163594.603385048] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163594.603704465] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163594.608697006] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163594.608736381] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163594.608955881] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163594.609030506] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163594.609038173] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163594.609100715] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163594.609168923] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163594.609681173] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163594.609770631] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163594.640237673] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163594.640559340] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163594.640979840] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163594.641151173] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163594.641214173] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163594.643273756] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163594.643320340] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163594.643343590] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163594.643427548] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163594.648543590] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163594.648593506] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163594.648609673] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163594.648772756] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163594.649084298] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163594.649115881] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163594.649265965] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163594.649274048] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163597.159471341] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163597.199633508] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163597.200488924] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163597.200626341] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163597.554579550] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163597.554955966] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163597.560142591] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163597.560177925] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163597.560448466] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163597.560550508] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163597.560559300] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163597.560614550] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163597.560732466] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163597.561199591] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163597.561279466] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163597.588881966] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163597.589098675] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163597.589402008] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163597.589547841] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163597.589577633] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163597.590952675] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163597.590996466] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163597.591014383] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163597.591062591] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163597.591200758] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163597.591229800] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163597.591242008] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163597.591336133] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163597.591544508] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163597.591569050] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163597.591825550] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163597.591842883] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163600.093382926] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163600.143180842] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163600.182982926] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163600.183229426] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163600.537405426] [task_planner_node]: Pick bearing_rear -> replace_bin (replace)
+[move_group-8] [INFO] [1782163600.603372884] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163600.603866593] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163600.604026551] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163600.604052384] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163600.604266301] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163600.604322718] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163600.604328676] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163600.604376593] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163600.604428051] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163600.604904509] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163600.604977718] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163600.632316593] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163600.632537509] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163600.632961384] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163600.633128093] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163600.633162301] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163600.634870093] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163600.634901968] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163600.634919801] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163600.634966926] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163600.642676384] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163600.642714968] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163600.642727051] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163600.642792259] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163600.642929009] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163600.642949718] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163600.643041384] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163600.643049259] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163603.142561552] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163603.143881011] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163603.152901927] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163603.153032969] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163603.505991969] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163603.506324052] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163603.513171052] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163603.513204261] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163603.513431177] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163603.513495886] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163603.513503094] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163603.513556802] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163603.513616677] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163603.514099677] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163603.514178677] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163603.533061677] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163603.533261802] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163603.533523469] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163603.533674969] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163603.533698969] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163603.534942386] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163603.534966261] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163603.534981052] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163603.535048302] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163603.543523177] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163603.543558219] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163603.543570177] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163603.543734636] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163603.543905802] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163603.543926177] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163603.544020511] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163603.544025886] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163605.544361262] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163605.544913970] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163605.545140803] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163605.545392428] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163605.899521095] [task_planner_node]: Pick rotor -> reuse_bin (reuse)
+[move_group-8] [INFO] [1782163606.103605887] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163606.104016387] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163606.104631220] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163606.104748845] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163606.104985345] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163606.105047095] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163606.105054179] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163606.105107470] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163606.105166054] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163606.105620720] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163606.105937637] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163606.113754595] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163606.113973845] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163606.114239679] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163606.114342679] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163606.114364470] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163606.115535304] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163606.115555345] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163606.115569554] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163606.115602679] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163606.123659179] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163606.123689637] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163606.123699762] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163606.123758762] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163606.123883887] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163606.123921762] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163606.124002679] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163606.124008804] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163608.129545846] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163608.174703971] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163608.180221221] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163608.180451221] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163608.534530555] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163608.534890263] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163608.540265346] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163608.540303305] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163608.540548596] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163608.540616180] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163608.540623346] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163608.540717721] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163608.540783180] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163608.541274721] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163608.541387138] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163608.559713013] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163608.559915555] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163608.560205096] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163608.560337555] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163608.560361221] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163608.561809055] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163608.561846138] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163608.561862430] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163608.561910138] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163608.569822055] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163608.569883138] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163608.569898055] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163608.569981430] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163608.570155513] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163608.570181096] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163608.570305180] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163608.570314971] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163610.820394917] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163610.822087458] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163610.822212542] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163610.822468250] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163611.175382125] [task_planner_node]: Pick stator -> repair_bin (repair/remanufacture)
+[move_group-8] [INFO] [1782163611.353656375] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163611.354059083] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163611.354213500] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163611.354238958] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163611.354527583] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163611.354612042] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163611.354653083] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163611.354731792] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163611.354814542] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163611.355407417] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163611.355514958] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163611.372868750] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163611.373129667] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163611.373479708] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163611.373678542] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163611.373709375] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163611.375597333] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163611.375654917] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163611.375679500] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163611.375734292] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163611.383451708] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163611.383507917] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163611.383526708] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163611.383678125] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[move_group-8] [INFO] [1782163611.384079583] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163611.384089125] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163611.383894958] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163611.383931542] [arm_controller]: Accepted new action goal
+[gazebo-1] [INFO] [1782163613.634232501] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163613.634567001] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163613.634699960] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163613.634878001] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163613.987476335] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163613.987631918] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163613.994191376] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163613.994214585] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163613.994316626] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163613.994364668] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163613.994368501] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163613.994399835] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163613.994431460] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163613.994686626] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163613.994727168] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163614.021008835] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163614.021127418] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163614.021289001] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163614.021375043] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163614.021387543] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163614.022221918] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163614.022245418] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163614.022256710] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163614.022287335] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163614.024227960] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163614.024257460] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163614.024266376] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163614.024327335] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163614.024459335] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163614.024478626] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163614.024557085] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163614.024563085] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163616.281488128] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163616.325121253] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163616.331667044] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163616.331900086] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163616.685463794] [task_planner_node]: Pick shaft -> repair_bin (repair/remanufacture)
+[move_group-8] [INFO] [1782163616.853421211] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163616.853804628] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163616.861829294] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163616.861874544] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163616.862113711] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163616.862178961] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163616.862187461] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163616.862241836] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163616.862302628] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163616.862877378] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163616.862975753] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163616.890259253] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163616.890485211] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163616.890791878] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163616.890932586] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163616.890954919] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163616.892979003] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163616.893007628] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163616.893022628] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163616.893076378] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163616.901803586] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163616.901861836] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163616.901878253] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163616.901975128] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163616.902160878] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163616.902185544] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163616.902338878] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163616.902348544] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163619.153152962] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163619.202975462] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163619.203248921] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163619.203302546] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163619.556149921] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163619.556504212] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163619.562829754] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163619.562923004] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163619.563158296] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163619.563220879] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163619.563226796] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163619.563280754] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163619.563337712] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163619.563814379] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163619.563893712] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163619.592301754] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163619.592502379] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163619.592774587] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163619.592925962] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163619.592947379] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163619.594407337] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163619.594463087] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163619.594480004] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163619.594519587] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163619.603424004] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163619.603447796] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163619.603457754] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163619.603544296] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[move_group-8] [INFO] [1782163619.603846129] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163619.603852046] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163619.603718254] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163619.603742754] [arm_controller]: Accepted new action goal
+[gazebo-1] [INFO] [1782163621.606011088] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163621.654219963] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163621.656132963] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163621.656310880] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163622.010572880] [task_planner_node]: Pick housing -> reuse_bin (reuse)
+[move_group-8] [INFO] [1782163622.103615964] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163622.103969380] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163622.106116672] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163622.106164297] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163622.106378172] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163622.106439630] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163622.106446422] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163622.106499214] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163622.106555797] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163622.107325255] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163622.107431464] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163622.126161672] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163622.126365380] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163622.126643964] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163622.126776839] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163622.126799297] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163622.128267130] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163622.128300505] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163622.128320297] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163622.128351089] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163622.136364339] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163622.136434214] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163622.136451339] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163622.136543922] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163622.136725755] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163622.136750297] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163622.136881880] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163622.136889714] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163624.137303923] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163624.187665006] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163624.187797798] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163624.188016215] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163624.542489465] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163624.543009965] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163624.551705506] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163624.551748090] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163624.552002423] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163624.552130923] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163624.552141215] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163624.552205631] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163624.552274715] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163624.552921090] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163624.553017256] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163624.579781923] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163624.580037506] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163624.580357298] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163624.580523465] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163624.580554340] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163624.582140006] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163624.582181840] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163624.582202881] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163624.582252215] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163624.592844631] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163624.592913173] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163624.592932423] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163624.593056256] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163624.593257340] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163624.593287756] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163624.593435131] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163624.593448548] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163626.595025007] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163626.643716591] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163626.655055341] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163626.655242882] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163627.008372549] [task_planner_node]: Pick front_cover -> reuse_bin (reuse)
+[move_group-8] [INFO] [1782163627.103271508] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163627.103660091] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163627.105294341] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163627.105334299] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163627.105565549] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163627.105647841] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163627.105656008] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163627.105710841] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163627.105772466] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163627.106219383] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163627.106297341] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163627.123727091] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163627.123939966] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163627.124223008] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163627.124364174] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163627.124386841] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163627.125983008] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163627.126021924] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163627.126039258] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163627.126086174] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163627.135432049] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163627.135475924] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163627.135489591] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163627.135549799] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163627.135715716] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163627.135737299] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163627.135823091] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163627.135831174] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163629.136433384] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163629.136899675] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163629.137013050] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163629.137189300] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163629.490484884] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163629.490639759] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163629.496261550] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163629.496282925] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163629.496385717] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163629.496418550] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163629.496421925] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163629.496452717] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163629.496501259] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163629.496738300] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163629.496784259] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163629.525991467] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163629.526240800] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163629.526569842] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163629.526771592] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163629.526799092] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163629.528595592] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163629.528654800] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163629.528679300] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163629.528734800] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163629.537550800] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163629.537606259] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163629.537639925] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163629.537746800] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163629.537977634] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163629.538019342] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163629.538282425] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163629.538298550] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163631.537337801] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163631.539269426] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163631.547528801] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163631.547778010] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163631.901359802] [task_planner_node]: Pick rear_cover -> reuse_bin (reuse)
+[move_group-8] [INFO] [1782163632.103571218] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163632.103983968] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163632.107659010] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163632.107706343] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163632.107966593] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163632.108053802] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163632.108062427] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163632.108137677] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163632.108217843] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163632.108799218] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163632.109009010] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163632.117817260] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163632.118041635] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163632.118318718] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163632.118478927] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163632.118506927] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163632.120551802] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163632.120593135] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163632.120615927] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163632.120736677] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163632.127515593] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163632.127574635] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163632.127592885] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163632.127771760] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163632.128021135] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163632.128080010] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163632.128380843] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163632.128389218] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163634.135122469] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163634.178953844] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163634.185186844] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163634.185280803] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[move_group-8] [INFO] [1782163634.538572053] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163634.539134136] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163634.539428928] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163634.539554178] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163634.539912636] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163634.539985886] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163634.539993095] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163634.540050386] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163634.540110428] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163634.540641428] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163634.540724678] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163634.569774886] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163634.570056011] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163634.570348803] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163634.570478595] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163634.570500636] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163634.571882261] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163634.571909053] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163634.571923553] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163634.571965261] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163634.578709136] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163634.578748553] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163634.578760428] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163634.578848095] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163634.579019636] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163634.579044553] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163634.579135136] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163634.579139845] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163637.332215804] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163637.379491804] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163637.382486846] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163637.382738429] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163637.737022263] [task_planner_node]: Pick bolts -> recycle_bin (recycle)
+[task_planner_node-13] [INFO] [1782163637.853545846] [task_planner_node]: Replace damaged bearings with new placeholder parts
+[move_group-8] [INFO] [1782163638.103708221] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163638.104244055] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163638.112609346] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163638.112684138] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163638.112947180] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163638.113023305] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163638.113031138] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163638.113095305] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163638.113164763] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163638.113733638] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163638.113834388] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163638.144331721] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163638.144661721] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163638.145044180] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163638.145225721] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163638.145256930] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163638.147282263] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163638.147319263] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163638.147340888] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163638.147396221] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163638.152503680] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163638.152565263] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163638.152584721] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163638.152697346] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163638.152990471] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163638.153045388] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163638.153261680] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163638.153271513] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163641.151730833] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163641.153779000] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163641.162268875] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163641.162571500] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163641.515034250] [task_planner_node]: Reassemble motor in simulated steps
+[move_group-8] [INFO] [1782163641.603035042] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-8] [INFO] [1782163641.603159209] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-8] [INFO] [1782163641.603223667] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-8] [INFO] [1782163641.603233750] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-8] [INFO] [1782163641.603338250] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-8] [INFO] [1782163641.603370167] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-8] [WARN] [1782163641.603373334] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-8] [INFO] [1782163641.603400792] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-8] [INFO] [1782163641.603432750] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-8] [INFO] [1782163641.603663709] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-8] [INFO] [1782163641.603703250] [move_group]: Calling Planner 'OMPL'
+[move_group-8] [INFO] [1782163641.627611167] [move_group]: Calling PlanningResponseAdapter 'AddRuckigTrajectorySmoothing'
+[move_group-8] [INFO] [1782163641.627729042] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-8] [INFO] [1782163641.627876542] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-8] [WARN] [1782163641.627958875] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group-8] [INFO] [1782163641.627972167] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-8] [INFO] [1782163641.628903125] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-8] [INFO] [1782163641.628921000] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163641.628931959] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163641.628962167] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group-8] [INFO] [1782163641.632779417] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-8] [INFO] [1782163641.632808917] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163641.632816959] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1782163641.632873125] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[gazebo-1] [INFO] [1782163641.632981417] [arm_controller]: Received new action goal
+[gazebo-1] [INFO] [1782163641.632998875] [arm_controller]: Accepted new action goal
+[move_group-8] [INFO] [1782163641.633081667] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[move_group-8] [INFO] [1782163641.633087917] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[gazebo-1] [INFO] [1782163643.634906501] [arm_controller]: Goal reached, success!
+[move_group-8] [INFO] [1782163643.683373960] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[move_group-8] [INFO] [1782163643.685012418] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-8] [INFO] [1782163643.685087085] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[task_planner_node-13] [INFO] [1782163644.037213251] [task_planner_node]: Run final test
+[task_planner_node-13] [INFO] [1782163644.104298668] [task_planner_node]: Publish final summary

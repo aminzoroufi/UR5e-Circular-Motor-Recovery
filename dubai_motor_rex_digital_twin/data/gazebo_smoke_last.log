@@ -1,0 +1,265 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-06-23-05-33-21-304965-199ce1266b58-25
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gazebo-1]: process started with pid [31]
+[INFO] [parameter_bridge-2]: process started with pid [32]
+[INFO] [robot_state_publisher-3]: process started with pid [33]
+[INFO] [create-4]: process started with pid [35]
+[create-4] [INFO] [1782192801.724063919] [ros_gz_sim]: Requesting list of world names.
+[robot_state_publisher-3] [INFO] [1782192801.729027586] [robot_state_publisher]: Robot initialized
+[parameter_bridge-2] [INFO] [1782192801.740183128] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[create-4] [INFO] [1782192802.122900336] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[create-4] [INFO] [1782192802.126320295] [ros_gz_sim]: Entity creation successful.
+[INFO] [create-4]: process has finished cleanly [pid 35]
+[gazebo-1] [INFO] [1782192803.944602587] [gz_ros_control]: [gz_ros2_control] Fixed joint ['camera_placeholder_joint'] (Entity='107') is skipped.
+[gazebo-1] [INFO] [1782192803.944985129] [gz_ros_control]: [gz_ros2_control] Fixed joint ['conveyor_placeholder_joint'] (Entity='108') is skipped.
+[gazebo-1] [INFO] [1782192803.944991629] [gz_ros_control]: [gz_ros2_control] Fixed joint ['depth_camera_placeholder_joint'] (Entity='109') is skipped.
+[gazebo-1] [INFO] [1782192803.944995379] [gz_ros_control]: [gz_ros2_control] Fixed joint ['floor_joint'] (Entity='110') is skipped.
+[gazebo-1] [INFO] [1782192803.944998587] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_bearing_front_world_joint'] (Entity='111') is skipped.
+[gazebo-1] [INFO] [1782192803.945002671] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_bearing_rear_world_joint'] (Entity='112') is skipped.
+[gazebo-1] [INFO] [1782192803.945005796] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_bolts_world_joint'] (Entity='113') is skipped.
+[gazebo-1] [INFO] [1782192803.945008921] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_fan_world_joint'] (Entity='114') is skipped.
+[gazebo-1] [INFO] [1782192803.945011962] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_front_cover_world_joint'] (Entity='115') is skipped.
+[gazebo-1] [INFO] [1782192803.945014921] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_housing_world_joint'] (Entity='116') is skipped.
+[gazebo-1] [INFO] [1782192803.945017837] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_rear_cover_world_joint'] (Entity='117') is skipped.
+[gazebo-1] [INFO] [1782192803.945020837] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_rotor_world_joint'] (Entity='118') is skipped.
+[gazebo-1] [INFO] [1782192803.945023754] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_shaft_world_joint'] (Entity='119') is skipped.
+[gazebo-1] [INFO] [1782192803.945026712] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_stator_world_joint'] (Entity='120') is skipped.
+[gazebo-1] [INFO] [1782192803.945030421] [gz_ros_control]: [gz_ros2_control] Fixed joint ['motor_terminal_box_world_joint'] (Entity='121') is skipped.
+[gazebo-1] [INFO] [1782192803.945033921] [gz_ros_control]: [gz_ros2_control] Fixed joint ['reassembly_station_joint'] (Entity='122') is skipped.
+[gazebo-1] [INFO] [1782192803.945036879] [gz_ros_control]: [gz_ros2_control] Fixed joint ['recovery_table_joint'] (Entity='123') is skipped.
+[gazebo-1] [INFO] [1782192803.945039879] [gz_ros_control]: [gz_ros2_control] Fixed joint ['recycle_bin_joint'] (Entity='124') is skipped.
+[gazebo-1] [INFO] [1782192803.945042796] [gz_ros_control]: [gz_ros2_control] Fixed joint ['repair_bin_joint'] (Entity='125') is skipped.
+[gazebo-1] [INFO] [1782192803.945045754] [gz_ros_control]: [gz_ros2_control] Fixed joint ['repair_station_joint'] (Entity='126') is skipped.
+[gazebo-1] [INFO] [1782192803.945048754] [gz_ros_control]: [gz_ros2_control] Fixed joint ['replace_bin_joint'] (Entity='127') is skipped.
+[gazebo-1] [INFO] [1782192803.945052004] [gz_ros_control]: [gz_ros2_control] Fixed joint ['reuse_bin_joint'] (Entity='128') is skipped.
+[gazebo-1] [INFO] [1782192803.945055004] [gz_ros_control]: [gz_ros2_control] Fixed joint ['robot_mount_joint'] (Entity='129') is skipped.
+[gazebo-1] [INFO] [1782192803.945068837] [gz_ros_control]: [gz_ros2_control] Fixed joint ['test_station_joint'] (Entity='138') is skipped.
+[gazebo-1] [INFO] [1782192803.949962421] [gz_ros_control]: Loading controller_manager
+[gazebo-1] [INFO] [1782192803.974662087] [controller_manager]: Using ROS clock for triggering controller manager cycles.
+[gazebo-1] [INFO] [1782192803.977095171] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[gazebo-1] [WARN] [1782192803.979698087] [gz_ros_control]: Waiting RM to load and initialize hardware...
+[gazebo-1] [INFO] [1782192803.979819087] [controller_manager]: Received robot description from topic.
+[gazebo-1] [INFO] [1782192803.979889046] [controller_manager]: Enforcing command limits is disabled. Command limits from URDF will be ignored.
+[gazebo-1] [INFO] [1782192803.985660546] [gz_ros_control]: The position_proportional_gain has been set to: 0.1
+[gazebo-1] [INFO] [1782192803.985710587] [gz_ros_control]: Loading joint: shoulder_pan_joint
+[gazebo-1] [INFO] [1782192803.985719171] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782192803.985723712] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985753879] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782192803.985760129] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782192803.985763421] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985773921] [gz_ros_control]: Loading joint: shoulder_lift_joint
+[gazebo-1] [INFO] [1782192803.985777296] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782192803.985780296] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985783421] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782192803.985786129] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782192803.985789087] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985795962] [gz_ros_control]: Loading joint: elbow_joint
+[gazebo-1] [INFO] [1782192803.985799337] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782192803.985802129] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985805462] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782192803.985808129] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782192803.985810837] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985816754] [gz_ros_control]: Loading joint: wrist_1_joint
+[gazebo-1] [INFO] [1782192803.985819754] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782192803.985822504] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985825171] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782192803.985827921] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782192803.985830629] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985836046] [gz_ros_control]: Loading joint: wrist_2_joint
+[gazebo-1] [INFO] [1782192803.985838921] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782192803.985841546] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985845087] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782192803.985847796] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782192803.985850421] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985889171] [gz_ros_control]: Loading joint: wrist_3_joint
+[gazebo-1] [INFO] [1782192803.985899087] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782192803.985902796] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985906004] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782192803.985908837] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782192803.985911671] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985922962] [gz_ros_control]: Loading joint: left_finger_joint
+[gazebo-1] [INFO] [1782192803.985928754] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782192803.985932629] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985935379] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782192803.985938087] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782192803.985940712] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985946712] [gz_ros_control]: Loading joint: right_finger_joint
+[gazebo-1] [INFO] [1782192803.985949712] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1782192803.985952337] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.985954962] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1782192803.985957504] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1782192803.985960129] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1782192803.986128546] [controller_manager]: Initialize hardware 'MotorRexSystem' 
+[gazebo-1] [WARN] [1782192803.986157212] [controller_manager.hardware_component.system.MotorRexSystem]: Executor is not available during hardware component initialization for 'MotorRexSystem'. Skipping node creation!
+[gazebo-1] [INFO] [1782192803.986215796] [controller_manager]: Successful initialization of hardware 'MotorRexSystem'
+[gazebo-1] [INFO] [1782192803.986350379] [controller_manager]: Activating component 'MotorRexSystem'.
+[gazebo-1] [INFO] [1782192803.986361129] [resource_manager]: 'configure' hardware 'MotorRexSystem' 
+[gazebo-1] [INFO] [1782192803.986365754] [gz_ros_control]: System Successfully configured!
+[gazebo-1] [INFO] [1782192803.986371129] [resource_manager]: Successful 'configure' of hardware 'MotorRexSystem'
+[gazebo-1] [INFO] [1782192803.986376879] [resource_manager]: 'activate' hardware 'MotorRexSystem' 
+[gazebo-1] [INFO] [1782192803.986387962] [resource_manager]: Successful 'activate' of hardware 'MotorRexSystem'
+[gazebo-1] [WARN] [1782192803.986415629] [controller_manager]: Component 'MotorRexSystem' does not have read or write statistics initialized, skipping registration.
+[gazebo-1] [INFO] [1782192803.986421046] [controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[INFO] [spawner-5]: process started with pid [118]
+[INFO] [spawner-6]: process started with pid [119]
+[INFO] [spawner-7]: process started with pid [120]
+[spawner-6] [WARN] [1782192805.980597463] [spawner_arm_controller]: Controller already loaded, skipping load_controller
+[gazebo-1] [INFO] [1782192805.981760963] [controller_manager]: Configuring controller: 'arm_controller'
+[gazebo-1] [ERROR] [1782192805.981827088] [controller_manager]: Could not configure controller with name 'arm_controller' because no controller with this name exists
+[spawner-6] [ERROR] [1782192805.984094088] [spawner_arm_controller]: Failed to configure controller
+[gazebo-1] [WARN] [1782192805.998733255] [gz_ros_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[robot_state_publisher-3] [WARN] [1782192806.065513213] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.085020922] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.154701838] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.215649880] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.245534672] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.314645047] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.344766755] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.364980755] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[ERROR] [spawner-6]: process has died [pid 119, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner arm_controller --controller-manager /controller_manager --controller-manager-timeout 30 --ros-args'].
+[robot_state_publisher-3] [WARN] [1782192806.385013380] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.404836838] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[spawner-5] [WARN] [1782192806.416445755] [spawner_joint_state_broadcaster]: Controller already loaded, skipping load_controller
+[gazebo-1] [INFO] [1782192806.417337588] [controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[gazebo-1] [ERROR] [1782192806.417360630] [controller_manager]: Could not configure controller with name 'joint_state_broadcaster' because no controller with this name exists
+[spawner-5] [ERROR] [1782192806.417840005] [spawner_joint_state_broadcaster]: Failed to configure controller
+[robot_state_publisher-3] [WARN] [1782192806.626905630] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.686755297] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.746871505] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.797232922] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[ERROR] [spawner-5]: process has died [pid 118, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner joint_state_broadcaster --controller-manager /controller_manager --controller-manager-timeout 30 --ros-args'].
+[gazebo-1] [INFO] [1782192806.869056172] [controller_manager]: Loading controller : 'gripper_controller' of type 'joint_trajectory_controller/JointTrajectoryController'
+[gazebo-1] [INFO] [1782192806.869085422] [controller_manager]: Loading controller 'gripper_controller'
+[gazebo-1] [INFO] [1782192806.875512089] [controller_manager]: Controller 'gripper_controller' node arguments: --ros-args --params-file /workspace/dubai_motor_rex_digital_twin/ros2_ws/install/motor_rex_description/share/motor_rex_description/config/ros2_controllers.yaml -p use_sim_time:=true --param use_sim_time:=true 
+[robot_state_publisher-3] [WARN] [1782192806.877709672] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[spawner-7] [FATAL] [1782192806.878274339] [spawner_gripper_controller]: Failed loading controller gripper_controller
+[robot_state_publisher-3] [WARN] [1782192806.917824422] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.937422464] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.967464422] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192806.987743672] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.017506880] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.037554505] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.127615255] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.186960047] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[ERROR] [spawner-7]: process has died [pid 120, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner gripper_controller --controller-manager /controller_manager --controller-manager-timeout 30 --ros-args'].
+[robot_state_publisher-3] [WARN] [1782192807.236909380] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.286884005] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.366783797] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.426840339] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.486749256] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.546982922] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.587495089] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.607621297] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.637507381] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.659357797] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.723666589] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192807.973606131] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192808.013694339] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192808.033733422] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192808.242969339] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192808.802850673] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192808.872825465] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192808.930678923] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.109295090] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.209618131] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.469491465] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.489277382] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.530551215] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.590462548] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.610487382] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.640347882] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.740485840] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.760547257] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.860248840] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192809.910507757] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.150388632] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.190392757] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.230290257] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.390359757] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.420842507] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.460443465] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.570501424] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.670478757] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.722620549] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.802478299] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.852970591] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.893081841] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192810.923376257] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192811.196435299] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192811.236516966] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192811.316234924] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192811.436517591] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192811.507462924] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192811.617519299] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192811.647421133] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192811.727485924] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192811.877388091] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192811.917364216] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.017342633] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.047414216] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.087426508] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.167291424] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.267388675] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.287271258] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.317342300] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.387321633] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.597423841] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.737524008] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.887644633] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192812.927312425] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192813.137471258] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192813.157415133] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192813.277430008] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192813.467428133] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192813.577403758] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192813.707290967] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192813.727607300] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192813.767492384] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192814.039355800] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192814.102445425] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192814.122477259] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192814.172484300] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192814.494134092] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192814.754087384] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192814.804066759] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192814.973889717] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.003852259] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.133745468] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.194321968] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.225019509] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.326536384] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.386484843] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.507346134] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.536324009] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.619433301] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.661823676] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.883935343] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192815.954597301] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192816.330342093] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192816.350391718] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192816.380322176] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192816.680429802] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192816.820265510] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192816.951804093] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192816.993372510] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.023374135] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.046424135] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.129786635] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.162119885] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.235965927] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.257390010] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.383637427] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.456724594] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.528472802] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.734196302] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.887499636] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192817.917773261] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192818.091414094] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192818.221432052] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192818.251508261] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192818.401350552] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192818.421352927] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192818.551430428] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192818.641373428] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192818.731264344] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[robot_state_publisher-3] [WARN] [1782192818.991347219] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
