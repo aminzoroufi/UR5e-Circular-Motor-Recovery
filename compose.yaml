@@ -1,0 +1,26 @@
+services:
+  ros-gz:
+    build:
+      context: .
+      dockerfile: docker/ros_gz/Dockerfile
+    image: electric-motor-ros-gz:jazzy
+    platform: linux/arm64
+    container_name: electric-motor-ros-gz
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - ros-home:/root
+    environment:
+      ROS_DOMAIN_ID: "42"
+      RMW_IMPLEMENTATION: rmw_cyclonedds_cpp
+      QT_X11_NO_MITSHM: "1"
+      DISPLAY: "${DISPLAY:-}"
+    ports:
+      - "6080:6080"
+      - "5900:5900"
+    stdin_open: true
+    tty: true
+    command: bash
+
+volumes:
+  ros-home:

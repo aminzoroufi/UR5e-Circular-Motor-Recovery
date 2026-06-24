@@ -1,0 +1,57 @@
+# ──────────────────────────────────────────────────────────
+#  macOS / editor cruft
+# ──────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# ──────────────────────────────────────────────────────────
+#  Python
+# ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+dubai_motor_rex_digital_twin/.venv_streamlit/
+
+# ──────────────────────────────────────────────────────────
+#  ROS 2 / colcon build artifacts
+# ──────────────────────────────────────────────────────────
+dubai_motor_rex_digital_twin/ros2_ws/build/
+dubai_motor_rex_digital_twin/ros2_ws/install/
+dubai_motor_rex_digital_twin/ros2_ws/log/
+
+# ──────────────────────────────────────────────────────────
+#  Unity generated folders (keep Assets/, ProjectSettings/, Packages/)
+# ──────────────────────────────────────────────────────────
+dubai_motor_rex_digital_twin/unity_digital_twin/Library/
+dubai_motor_rex_digital_twin/unity_digital_twin/Temp/
+dubai_motor_rex_digital_twin/unity_digital_twin/Obj/
+dubai_motor_rex_digital_twin/unity_digital_twin/Build/
+dubai_motor_rex_digital_twin/unity_digital_twin/Builds/
+dubai_motor_rex_digital_twin/unity_digital_twin/Logs/
+dubai_motor_rex_digital_twin/unity_digital_twin/UserSettings/
+dubai_motor_rex_digital_twin/unity_digital_twin/MemoryCaptures/
+
+# ──────────────────────────────────────────────────────────
+#  Streamlit local config
+# ──────────────────────────────────────────────────────────
+**/.streamlit/
+
+# ──────────────────────────────────────────────────────────
+#  Vendored upstream model sources (cloned third-party repos).
+#  Provenance and download URLs are documented in
+#  dubai_motor_rex_digital_twin/external_models/README.md
+# ──────────────────────────────────────────────────────────
+dubai_motor_rex_digital_twin/external_models/sources/

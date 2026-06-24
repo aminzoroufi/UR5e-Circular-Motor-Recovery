@@ -1,0 +1,13 @@
+.git
+.DS_Store
+**/__pycache__
+**/.pytest_cache
+**/build
+**/install
+**/log
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.mov
+
