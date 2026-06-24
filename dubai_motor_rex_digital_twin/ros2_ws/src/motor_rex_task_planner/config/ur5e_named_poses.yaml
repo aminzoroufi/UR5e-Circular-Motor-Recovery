@@ -1,0 +1,29 @@
+robot_model: Universal Robots UR5e official ROS 2 description
+target_robot: Universal Robots UR5e
+target_gripper: Robotiq 2F-85 style parallel gripper
+joint_names:
+  - shoulder_pan_joint
+  - shoulder_lift_joint
+  - elbow_joint
+  - wrist_1_joint
+  - wrist_2_joint
+  - wrist_3_joint
+named_poses:
+  home: [0.0, -0.8, 1.25, -0.45, 0.0, 0.0]
+  inspection_pose: [-0.2, -0.95, 1.35, -0.25, 0.15, 0.0]
+  pickup_pose: [0.15, -1.05, 1.55, -0.35, 0.0, 0.0]
+  pickup_terminal_box_pose: [0.34, -1.08, 1.48, -0.42, 0.18, 0.0]
+  pickup_bolts_pose: [0.20, -1.06, 1.50, -0.40, 0.08, 0.12]
+  pickup_bearing_front_pose: [0.06, -1.08, 1.54, -0.45, 0.14, -0.18]
+  pickup_bearing_rear_pose: [-0.08, -1.05, 1.52, -0.46, 0.10, 0.20]
+  pickup_front_cover_pose: [0.18, -1.02, 1.58, -0.52, -0.05, 0.0]
+  pickup_housing_pose: [0.05, -1.08, 1.60, -0.50, 0.05, 0.0]
+  pickup_stator_pose: [-0.08, -1.10, 1.56, -0.46, 0.12, -0.15]
+  pickup_rear_cover_pose: [-0.18, -1.04, 1.55, -0.48, 0.03, 0.14]
+  pickup_fan_pose: [0.42, -1.00, 1.52, -0.56, -0.10, 0.20]
+  pickup_rotor_pose: [0.22, -1.12, 1.60, -0.48, -0.04, -0.10]
+  pickup_shaft_pose: [-0.02, -1.16, 1.62, -0.44, 0.0, 0.24]
+  reuse_bin_pose: [-1.45, -0.75, 1.1, -0.3, 0.0, 0.0]
+  repair_bin_pose: [-1.75, -0.75, 1.15, -0.3, 0.0, 0.0]
+  replace_bin_pose: [-2.05, -0.75, 1.15, -0.3, 0.0, 0.0]
+  recycle_bin_pose: [-2.35, -0.75, 1.15, -0.3, 0.0, 0.0]

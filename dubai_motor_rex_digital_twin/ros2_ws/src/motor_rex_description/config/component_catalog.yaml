@@ -1,0 +1,68 @@
+components:
+  housing:
+    frame: motor_housing
+    mass_kg: 8.0
+    primitive: box
+    size: [0.36, 0.22, 0.22]
+    assembled_pose: [0.75, 0.0, 0.92]
+  front_cover:
+    frame: motor_front_cover
+    mass_kg: 1.4
+    primitive: cylinder
+    size: [0.12, 0.24]
+    assembled_pose: [0.56, 0.0, 0.92]
+  rear_cover:
+    frame: motor_rear_cover
+    mass_kg: 1.4
+    primitive: cylinder
+    size: [0.12, 0.24]
+    assembled_pose: [0.94, 0.0, 0.92]
+  rotor:
+    frame: motor_rotor
+    mass_kg: 4.2
+    primitive: cylinder
+    size: [0.30, 0.09]
+    assembled_pose: [0.75, 0.0, 0.92]
+  stator:
+    frame: motor_stator
+    mass_kg: 6.3
+    primitive: cylinder
+    size: [0.28, 0.16]
+    assembled_pose: [0.75, 0.0, 0.92]
+  shaft:
+    frame: motor_shaft
+    mass_kg: 1.2
+    primitive: cylinder
+    size: [0.50, 0.025]
+    assembled_pose: [0.75, 0.0, 0.92]
+  bearing_front:
+    frame: motor_bearing_front
+    mass_kg: 0.35
+    primitive: cylinder
+    size: [0.04, 0.08]
+    assembled_pose: [0.57, 0.0, 0.92]
+  bearing_rear:
+    frame: motor_bearing_rear
+    mass_kg: 0.35
+    primitive: cylinder
+    size: [0.04, 0.08]
+    assembled_pose: [0.93, 0.0, 0.92]
+  fan:
+    frame: motor_fan
+    mass_kg: 0.5
+    primitive: box
+    size: [0.04, 0.28, 0.28]
+    assembled_pose: [1.04, 0.0, 0.92]
+  terminal_box:
+    frame: motor_terminal_box
+    mass_kg: 0.9
+    primitive: box
+    size: [0.16, 0.12, 0.10]
+    assembled_pose: [0.75, 0.0, 1.08]
+  bolts:
+    frame: motor_bolts
+    mass_kg: 0.2
+    primitive: box
+    size: [0.08, 0.08, 0.04]
+    assembled_pose: [0.55, 0.18, 0.94]
+

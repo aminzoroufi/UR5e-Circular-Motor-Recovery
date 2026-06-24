@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="motor_rex_cell">
+  <xacro:arg name="prefix" default="" />
+  <xacro:arg name="force_abs_paths" default="false" />
+
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro" />
+  <xacro:include filename="$(find robotiq_description)/urdf/robotiq_2f_85_macro.urdf.xacro" />
+
+  <xacro:macro name="rex_box_inertial" params="mass x y z">
+    <inertial>
+      <mass value="${mass}" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <inertia
+        ixx="${mass * (y*y + z*z) / 12.0}" ixy="0" ixz="0"
+        iyy="${mass * (x*x + z*z) / 12.0}" iyz="0"
+        izz="${mass * (x*x + y*y) / 12.0}" />
+    </inertial>
+  </xacro:macro>
+
+  <xacro:macro name="material_rgba" params="name rgba">
+    <material name="${name}"><color rgba="${rgba}" /></material>
+  </xacro:macro>
+
+  <xacro:material_rgba name="rex_floor" rgba="0.62 0.66 0.68 1.0" />
+  <xacro:material_rgba name="rex_table" rgba="0.36 0.39 0.40 1.0" />
+  <xacro:material_rgba name="rex_station" rgba="0.20 0.25 0.28 1.0" />
+  <xacro:material_rgba name="rex_reuse" rgba="0.08 0.64 0.28 1.0" />
+  <xacro:material_rgba name="rex_repair" rgba="0.94 0.68 0.10 1.0" />
+  <xacro:material_rgba name="rex_replace" rgba="0.82 0.12 0.10 1.0" />
+  <xacro:material_rgba name="rex_recycle" rgba="0.06 0.28 0.78 1.0" />
+
+  <link name="world" />
+
+  <link name="floor">
+    <visual>
+      <origin xyz="0 0 -0.025" rpy="0 0 0" />
+      <geometry><box size="4.5 3.6 0.05" /></geometry>
+      <material name="rex_floor" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.025" rpy="0 0 0" />
+      <geometry><box size="4.5 3.6 0.05" /></geometry>
+    </collision>
+    <xacro:rex_box_inertial mass="80.0" x="4.5" y="3.6" z="0.05" />
+  </link>
+  <joint name="floor_joint" type="fixed">
+    <parent link="world" /><child link="floor" />
+  </joint>
+
+  <xacro:macro name="workcell_box" params="name xyz size material mass">
+    <link name="${name}">
+      <visual>
+        <geometry><box size="${size}" /></geometry>
+        <material name="${material}" />
+      </visual>
+      <collision><geometry><box size="${size}" /></geometry></collision>
+      <xacro:rex_box_inertial
+        mass="${mass}"
+        x="${size.split()[0]}"
+        y="${size.split()[1]}"
+        z="${size.split()[2]}" />
+    </link>
+    <joint name="${name}_joint" type="fixed">
+      <parent link="world" /><child link="${name}" />
+      <origin xyz="${xyz}" rpy="0 0 0" />
+    </joint>
+  </xacro:macro>
+
+  <!-- One large source table, four category tables, and one UR5e. -->
+  <xacro:workcell_box name="recovery_table" xyz="0.43 -0.08 0.40" size="1.50 0.70 0.10" material="rex_table" mass="55.0" />
+  <xacro:workcell_box name="reuse_bin" xyz="1.02 -0.72 0.40" size="0.78 0.52 0.10" material="rex_reuse" mass="22.0" />
+  <xacro:workcell_box name="repair_bin" xyz="0.72 -1.20 0.40" size="0.58 0.44 0.10" material="rex_repair" mass="18.0" />
+  <xacro:workcell_box name="replace_bin" xyz="0.08 -1.20 0.40" size="0.58 0.44 0.10" material="rex_replace" mass="18.0" />
+  <xacro:workcell_box name="recycle_bin" xyz="-0.22 -0.70 0.40" size="0.58 0.44 0.10" material="rex_recycle" mass="18.0" />
+  <xacro:workcell_box name="arm_a_pedestal" xyz="0.42 -0.58 0.17" size="0.28 0.24 0.34" material="rex_station" mass="45.0" />
+
+  <xacro:ur_robot
+    name="ur5e"
+    tf_prefix="$(arg prefix)"
+    parent="world"
+    joint_limits_parameters_file="$(find ur_description)/config/ur5e/joint_limits.yaml"
+    kinematics_parameters_file="$(find ur_description)/config/ur5e/default_kinematics.yaml"
+    physical_parameters_file="$(find ur_description)/config/ur5e/physical_parameters.yaml"
+    visual_parameters_file="$(find ur_description)/config/ur5e/visual_parameters.yaml"
+    safety_limits="true"
+    safety_pos_margin="0.15"
+    safety_k_position="20"
+    force_abs_paths="$(arg force_abs_paths)">
+    <origin xyz="0.42 -0.58 0.34" rpy="0 0 ${pi/2.0}" />
+  </xacro:ur_robot>
+
+  <xacro:robotiq_gripper
+    name="Robotiq2F85"
+    prefix="$(arg prefix)"
+    parent="$(arg prefix)tool0"
+    sim_gazebo="true"
+    use_fake_hardware="true"
+    include_ros2_control="false">
+    <origin xyz="0 0 0.02" rpy="0 0 0" />
+  </xacro:robotiq_gripper>
+
+  <ros2_control name="MotorRexSystem" type="system">
+    <hardware><plugin>gz_ros2_control/GazeboSimSystem</plugin></hardware>
+    <joint name="shoulder_pan_joint">
+      <command_interface name="position" />
+      <state_interface name="position"><param name="initial_value">0.0</param></state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="shoulder_lift_joint">
+      <command_interface name="position" />
+      <state_interface name="position"><param name="initial_value">-0.8</param></state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="elbow_joint">
+      <command_interface name="position" />
+      <state_interface name="position"><param name="initial_value">1.25</param></state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="wrist_1_joint">
+      <command_interface name="position" />
+      <state_interface name="position"><param name="initial_value">-0.45</param></state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="wrist_2_joint">
+      <command_interface name="position" />
+      <state_interface name="position"><param name="initial_value">0.0</param></state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="wrist_3_joint">
+      <command_interface name="position" />
+      <state_interface name="position"><param name="initial_value">0.0</param></state_interface>
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="robotiq_85_left_knuckle_joint">
+      <command_interface name="position" />
+      <state_interface name="position"><param name="initial_value">0.0</param></state_interface>
+      <state_interface name="velocity" />
+    </joint>
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>$(find motor_rex_description)/config/ros2_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+</robot>
