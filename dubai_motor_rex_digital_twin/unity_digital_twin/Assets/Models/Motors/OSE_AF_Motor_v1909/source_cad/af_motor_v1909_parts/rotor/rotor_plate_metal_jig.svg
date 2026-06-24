@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="71.4mm"
+   height="71.4mm"
+   viewBox="0 0 71.4 71.4"
+   version="1.1"
+   id="svg4313"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="rotor_plate_metal_jig.svg">
+  <metadata
+     id="metadata4360">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4358" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="876"
+     id="namedview4356"
+     showgrid="false"
+     inkscape:zoom="1.8656707"
+     inkscape:cx="169.30551"
+     inkscape:cy="110.88624"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4313" />
+  <g
+     id="PolarPattern"
+     transform="translate(35.700000,35.700000) scale(1,-1)"
+     style="fill:none;stroke:#ff0000;stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none">
+    <circle
+       cx="0.0"
+       cy="0.0"
+       r="35.0"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4316" />
+    <circle
+       cx="0.0"
+       cy="0.0"
+       r="35.0"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4318" />
+    <circle
+       cx="0.0"
+       cy="0.0"
+       r="35.0"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#00ff00"
+       id="circle4320" />
+    <circle
+       cx="-18.9983939642"
+       cy="-25.7499713938"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4322" />
+    <circle
+       cx="-15.2169042607"
+       cy="-4.94427191"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4324" />
+    <circle
+       cx="-4.4320103143e-13"
+       cy="-16.0"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4326" />
+    <circle
+       cx="-7.6412082798"
+       cy="-10.5172209269"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4328" />
+    <circle
+       cx="0.0"
+       cy="13.0"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4330" />
+    <circle
+       cx="0.0"
+       cy="0.0"
+       r="6.0"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4332" />
+    <circle
+       cx="-9.40456403668"
+       cy="12.94427191"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4334" />
+    <circle
+       cx="-12.3637347118"
+       cy="4.01722092687"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4336" />
+    <circle
+       cx="15.2169042607"
+       cy="-4.94427191"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4338" />
+    <circle
+       cx="7.6412082798"
+       cy="-10.5172209269"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4340" />
+    <circle
+       cx="12.3637347118"
+       cy="4.01722092687"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4342" />
+    <circle
+       cx="9.40456403668"
+       cy="12.94427191"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4344" />
+    <circle
+       cx="30.5054770151"
+       cy="9.66518867281"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4346" />
+    <circle
+       cx="18.6188514877"
+       cy="-26.0257251442"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4348" />
+    <circle
+       cx="-30.3605046892"
+       cy="10.1113676135"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4350" />
+    <circle
+       cx="0.0"
+       cy="32.0"
+       r="0.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.28222222;stroke-miterlimit:4;stroke-dasharray:none;fill:none;stroke:#ff0000"
+       id="circle4352" />
+    <title
+       id="title4354">cooling_attach_holes_polarpattern</title>
+  </g>
+</svg>
