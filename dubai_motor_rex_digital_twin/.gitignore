@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+streamlit_dashboard/.streamlit/
+unity_digital_twin/Library/
+unity_digital_twin/Logs/
+unity_digital_twin/Temp/
+unity_digital_twin/Obj/
+unity_digital_twin/UserSettings/
