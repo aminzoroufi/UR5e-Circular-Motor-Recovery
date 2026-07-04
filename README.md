@@ -2,8 +2,6 @@
 
 # ⚙️ UR5e Circular Motor Recovery
 
-### A Robotic **Re-X** Digital Twin for End-of-Life Electric Motors
-
 *Teaching a UR5e cobot to disassemble failed cooling-system motors and sort every part into*
 *&nbsp;**Reuse · Repair · Replace · Recycle** — turning industrial scrap back into recovered value.*
 
