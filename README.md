@@ -45,45 +45,7 @@ Dubai runs on cooling. District cooling plants, chillers, cooling towers, pumps,
 
 ---
 
-## 🏗️ Architecture
 
-Five practical layers, wired together by stable JSON + ROS topic contracts:
-
-```mermaid
-flowchart LR
-    subgraph DATA["1 · Data & Decision"]
-        DPP["Digital Product Passport (JSON)"] --> DE["Re-X Decision Engine"]
-        SENS["Mock Sensor Stream (CSV)"] --> DE
-        DE --> RES["processed_motor_results.json"]
-        DE --> TOPICS["/motor_rex/* topics"]
-    end
-
-    subgraph CTRL["2 · Control & Workflow"]
-        PER["Mock Perception"] --> TP["Task Planner — 17-step Re-X workflow"]
-        RES --> TP
-        TP --> PROG["task_progress_latest.json"]
-    end
-
-    subgraph PLAN["3 · Motion Planning"]
-        MI["MoveIt 2"]
-    end
-
-    subgraph SIM["4 · Simulation"]
-        GZ["Gazebo cell — UR5e + Robotiq + 11 parts"]
-    end
-
-    subgraph VIZ["5 · Visualization"]
-        ST["Streamlit Dashboard"]
-        UN["Unity Visual Twin"]
-    end
-
-    TP --> MI --> GZ
-    TOPICS --> ST
-    PROG --> ST
-    PROG --> UN
-```
-
----
 
 ## 🧠 The Re-X Decision Logic
 
