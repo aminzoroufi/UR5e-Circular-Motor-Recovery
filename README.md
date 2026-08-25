@@ -33,6 +33,37 @@ Dubai runs on cooling. District cooling plants, chillers, cooling towers, pumps,
 
 ---
 
+## 🤔 So why isn't this already how it's done?
+
+Worth answering directly, because it is the first question any recycler will ask.
+
+**Today, end-of-life motors are mostly shredded.** The scrap stream is crushed and screened,
+ferrous material is pulled magnetically, and copper is recovered downstream with eddy-current
+separation. It is fast, it needs no perception, and it scales. Selective disassembly competes
+against that, not against doing nothing — and the industry rule of thumb is blunt: if
+dismantling costs roughly ten minutes of labour, only the larger motors carry enough copper to
+justify it.
+
+**So the interesting question is not "can a robot take a motor apart" — it is where the
+crossover sits.** Shredding destroys component-level value: a sound housing, rotor, shaft,
+bearing or terminal box is worth far more as a part than as shredded metal, but only if you can
+identify and extract it without spending more than it is worth. That is why this cell is
+modelled **per component** rather than per motor, and why the decision engine emits a route for
+every part instead of a single verdict for the whole unit.
+
+**What would move the crossover:** rising component reuse value, a Digital Product Passport that
+removes the cost of *identifying* what you're holding, cobot cells cheap enough to sit inside an
+existing workshop, and regulation that prices material recovery below reuse. Robotic disassembly
+for the circular economy is an active research area for exactly this reason — task-and-motion
+planning for end-of-life products is an open problem, and comparable cells in the adjacent
+EV-battery domain have been demonstrated at productivity matching several human operators.
+
+**What this repository does not claim:** it does not show that a UR5e cell is cheaper than a
+shredder. It builds the architecture and the per-component decision layer you would need to
+answer that question with real cost data and real perception.
+
+---
+
 ## ✨ Highlights
 
 - 🤖 **Full robotic cell in simulation** — one UR5e + Robotiq 2F-85 gripper, a source table, four category tables and **11 separable, gravity-enabled motor parts** in Gazebo.
