@@ -1,3 +1,6 @@
+> **Collaborative project:** Developed in collaboration with [iamashkan](https://github.com/iamashkan). This repository is a fork of [iamashkan/UR5e-Circular-Motor-Recovery](https://github.com/iamashkan/UR5e-Circular-Motor-Recovery).
+> [Browse Amin Zoroufi's projects by role](https://github.com/aminzoroufi/aminzoroufi).
+
 <div align="center">
 
 # ⚙️ UR5e Circular Motor Recovery
